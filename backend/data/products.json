@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Resistor",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 30
+    },
+    {
+        "name": "Voltmeter",
+        "description": "device which is used to measure voltage in a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 5
+    },
+    {
+        "name": "Multimeter",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 5
+    },
+    {
+        "name": "Potentiometer",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 6
+    },
+    {
+        "name": "Variable Resistor",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 5
+    },
+    {
+        "name": "Spectru Analyzer",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 5
+    },
+    {
+        "name": "oscilloscope",
+        "description": "device which oppose the current flow in  a electrical circuit",
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/2.jpg"
+            }
+        ],
+        "laboratory_category": "Electronics lab",
+        "stock": 8
+    }
+]
