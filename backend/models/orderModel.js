@@ -27,13 +27,14 @@ const orderSchema = mongoose.Schema({
         }
 
     }],
+    lecturerId: { type: mongoose.SchemaTypes.ObjectId },
     deliveredAt: {
         type: Date
     },
     orderStatus: {
         type: String,
         required: true,
-        default: 'Processing'
+        default: 'Pending'
     },
     createdAt: {
         type: Date,
