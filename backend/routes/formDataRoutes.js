@@ -20,15 +20,17 @@ router.get("/", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
+
 router.post("/submit", upload.single("picture"), async (req, res) => {
   try {
-    const { name, court } = req.body;
+    const { name, court, labId } = req.body;
     const picture = req.file ? req.file.path : null;
 
     const formData = new FormData({
       name,
       picture,
       court,
+      labId,
     });
 
     await formData.save();
@@ -60,6 +62,19 @@ router.delete("/:id", async (req, res) => {
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+// Route to get form data based on labId
+router.get("/formData/:labId", async (req, res) => {
+  try {
+    const labId = req.params.labId;
+    const formDataList = await FormData.find({ labId });
+    res.status(200).json(formDataList);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Failed to get form data.", error: error.message });
   }
 });
 
